@@ -1,0 +1,16 @@
+name: test_analysis_rule_enum_body
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  analysis_server_plugin: ^0.3.25
+  analyzer: ^14.6.0
+
+dev_dependencies:
+  analyzer_testing: ^0.4.4
+  lints: ^6.0.0
+  test: ^1.25.6
+  test_reflective_loader: ^0.6.0
