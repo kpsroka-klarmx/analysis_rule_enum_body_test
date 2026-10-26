@@ -24,10 +24,6 @@ class TestRuleTest extends AnalysisRuleTest {
   }
 }
 
-/// Requires use of dot shorthand if parameter name matches .
-///
-/// Test code and test support code are intentionally excluded because a null
-/// assertion can be part of the behavior a test is explicitly exercising.
 class TestAnalysisRule extends AnalysisRule {
   TestAnalysisRule() : super(name: 'test_rule', description: '');
 
